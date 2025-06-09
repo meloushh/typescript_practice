@@ -40,7 +40,6 @@ class Drag {
     DetermineItemIndex(event: MouseEvent): number {
         let rel_y = event.clientY - this.list.offsetTop;
         let i = Math.floor(rel_y / this.item_height);
-        console.log(`determined i: ${i}`);
         return Math.min(i, this.items.length - 1);
     }
 

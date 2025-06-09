@@ -1,6 +1,8 @@
 body {
     font-family: 'Segoe UI Light';
     font-size: 16px;
+    height: 100vh;
+    background-color: #e7e4e3;
 }
 
 .list_reorderable {
